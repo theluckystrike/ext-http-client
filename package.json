@@ -1,1 +1,18 @@
-{"name":"ext-http-client","version":"1.0.0","description":"Chrome Extension HTTP client library","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"keywords":["chrome-extension","http"],"author":"","license":"MIT"}
+{
+  "name": "ext-http-client",
+  "version": "1.0.0",
+  "description": "Chrome Extension HTTP client library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["chrome-extension", "http"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "typescript": "^5.3.3"
+  }
+}
